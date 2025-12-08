@@ -97,7 +97,6 @@ This report enables HR and operations teams to monitor workforce health, perform
 ---
 
 ### 📌 Dashboard Preview
-(Add screenshots in a grid layout)
 
 <p align="center">
   <img src="./Images/HR Metrics.jpg" width="48%" />
