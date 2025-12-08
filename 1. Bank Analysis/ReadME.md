@@ -54,3 +54,13 @@ This structure improves:
 - Percentage change indicators
 - Rolling 12-month averages
 - Dynamic formatting and KPI-driven visuals
+
+## 📈 Dashboard Preview
+
+![Transaction Banking Overview](./images/overview.jpg)
+
+![Transaction Behaviours](./images/transactions.jpg)
+
+![Customer Behaviours](./images/customers.jpg)
+
+![Revenue Analysis](./images/revenue.jpg)
