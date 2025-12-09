@@ -105,8 +105,6 @@ well-organized and aligned with financial statement concepts.
 <p align="center">
   <img src="./Images/Overview.jpg" width="90%" />
 </p>
-
-<h3>Pages (Compact View)</h3>
 <p align="center">
   <img src="./Images/Revenue.jpg" width="90%" />
   <img src="./Images/Expense.jpg" width="90%" />
