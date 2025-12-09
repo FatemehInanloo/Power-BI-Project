@@ -18,7 +18,7 @@ Includes executive KPIs, trend charts, customer segmentation, currency switching
 
 ### ✅ Calculation Groups & Tabular Editor
 - Used **Tabular Editor** to create calculation groups, keeping time‑intelligence logic reusable and the model tidy.  
-- Calculation groups reduce redundant measures and apply common patterns (e.g., prior‑year logic) across many measures, making the model more scalable and maintainable. :contentReference[oaicite:0]{index=0}  
+- Calculation groups reduce redundant measures and apply common patterns (e.g., prior‑year logic) across many measures, making the model more scalable and maintainable. 
 - Time‑intelligence and dynamic indicator logic kept centralized rather than duplicated across dozens of measures.
 
 ### ✅ Forecast / Rolling Logic
@@ -27,7 +27,7 @@ Includes executive KPIs, trend charts, customer segmentation, currency switching
 
 ### ✅ Key Influencers / Diagnostic Insight
 - Added diagnostic analytics to highlight **which factors most influence performance** when needed—helpful for rapid root‑cause checks.  
-- The Key Influencers visual in Power BI is designed to surface top factors that affect a chosen metric, ranking them for clearer interpretation. :contentReference[oaicite:1]{index=1}  
+- The Key Influencers visual in Power BI is designed to surface top factors that affect a chosen metric, ranking them for clearer interpretation.
 - Enables teams to quickly see relevant drivers without building separate complex measures for each hypothesis.
 
 ### ✅ Measure‑Driven, Clean Model
