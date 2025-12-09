@@ -1,59 +1,63 @@
-# Transaction Banking Report (Bank Analysis)
+# 🏦 Transaction Banking Report (Bank Analysis)
 
 ## 📌 Project Overview
-This Power BI solution analyzes **transaction banking performance** for a fictional retail bank in Spain.  
-The report tracks total amounts, fees, transactions, and customers over time and breaks them down by
-customer segment, branch, channel, and product category.
+A multi‑page Power BI solution to analyze transaction amounts, fees, customers, and revenue for a retail bank.  
+Includes executive KPIs, trend charts, customer segmentation, currency switching (EUR/USD), and clean, business‑ready visuals.
 
-## 🎯 Business Questions
-- How are **total transaction amounts and fees** trending year over year?
-- Which **customer segments and income levels** generate the most activity and revenue?
-- Which **branches and channels** (ATM, mobile, branch, online) are performing best?
-- How do different **products** (loan, credit card, checking account, mortgage, etc.) contribute to
-  total revenue and late payment fees?
-- Where are there opportunities to improve **customer behaviour and profitability**?
+---
 
-  
-## 🧠 DAX & Modeling Techniques
+## 🎯 Key Objectives
+- Track overall transaction value, fees, and customer behavior over time  
+- Compare current year vs prior year (YoY) for major KPIs  
+- Drill into segments, channels, branches, and products to uncover performance drivers  
+- Provide an executive dashboard that supports quick decision making
 
-This project leverages **enterprise-level semantic modeling techniques** to keep the model
-scalable, clean, and maintainable.
+---
 
-### ✅ Calculation Groups (Tabular Editor)
-The model uses **Calculation Groups created in Tabular Editor** to standardize time-intelligence
-logic across all measures, including:
+## 🧠 Advanced Techniques & Modeling
 
-- **12-Month Rolling Average (RAVG 12M)**
-- **Year-over-Year (YoY / ΔPY) calculations**
-- **Dynamic YoY text indicators** (used in KPI cards)
+### ✅ Calculation Groups & Tabular Editor
+- Used **Tabular Editor** to create calculation groups, keeping time‑intelligence logic reusable and the model tidy.  
+- Calculation groups reduce redundant measures and apply common patterns (e.g., prior‑year logic) across many measures, making the model more scalable and maintainable. :contentReference[oaicite:0]{index=0}  
+- Time‑intelligence and dynamic indicator logic kept centralized rather than duplicated across dozens of measures.
 
-By using Calculation Groups:
-- Time-intelligence logic is written **once** and applied to all relevant measures
-- Measure duplication is avoided
-- DAX remains concise and reusable
-- The semantic model scales easily as new KPIs are added
+### ✅ Forecast / Rolling Logic
+- Implemented **12‑month moving averages** and **forecast trends** to show expected future behavior along with actuals.  
+- Gives stakeholders a forward‑looking view rather than only historical numbers.
 
-### ✅ Measure Organization & Display Folders
-Measures are organized in a dedicated **Measure table**, with clear display folders
-created and maintained using **Tabular Editor**, including:
+### ✅ Key Influencers / Diagnostic Insight
+- Added diagnostic analytics to highlight **which factors most influence performance** when needed—helpful for rapid root‑cause checks.  
+- The Key Influencers visual in Power BI is designed to surface top factors that affect a chosen metric, ranking them for clearer interpretation. :contentReference[oaicite:1]{index=1}  
+- Enables teams to quickly see relevant drivers without building separate complex measures for each hypothesis.
 
-- Main Measures
-- Revenue Measures
-- Customer Behaviours
-- KPI_PY_Measures
-- Visualization Measures
-- Currency Switch
+### ✅ Measure‑Driven, Clean Model
+- Central **Measure table** with structured display folders (Main, Revenue, Customer Behaviours, etc.)  
+- Dynamic currency switch, YoY, and KPI formatting all driven by measures built once and reused everywhere.
 
-This structure improves:
-- Model readability
-- Developer productivity
-- Long-term maintainability
+---
 
-### ✅ Time-Intelligence & KPI Logic
-- Current vs Previous Year (YoY / ΔPY)
-- Percentage change indicators
-- Rolling 12-month averages
-- Dynamic formatting and KPI-driven visuals
+## 📄 Report Pages
+- **Overview** – High‑level KPIs, moving averages, YoY comparisons, and segment breakdowns  
+- **Transaction Behaviours** – Product types, channels, geographic maps, and waterfall analysis  
+- **Customer Behaviours** – Segment distribution, preferred offers, credit score segments, and customer trends  
+- **Revenue Analysis** – Decomposition tree, product and channel revenue breakdowns, monthly trends
+
+---
+
+## 🎨 Design & UX
+- Executive‑focused layout with clear cards, maps, and charts  
+- Year and currency slicers, plus a reset button for quick navigation  
+- Consistent visual theme for fast scanning by business users
+
+---
+
+## 🛠 Tools & Technologies
+- Power BI Desktop  
+- DAX, Calculation Groups  
+- Tabular Editor for semantic organization  
+- Key Influencers visual for rapid diagnostics  
+- Forecast and moving‑average logic for future trends
+
 
 ## 📈 Dashboard Preview
 
