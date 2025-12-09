@@ -104,14 +104,15 @@ Key steps include:
 
 ---
 ## 📸 Dashboard Screenshots
-
 <p align="center">
-  <img src="./Images/Occupancy_Demand.jpg" width="48%" />
-  <img src="./Images/Guest_Experience_Review.jpg" width="48%" />
+  <img src="./Images/Occupancy_Demand.jpg" width="90%" />
 </p>
 
 <p align="center">
-  <img src="./Images/Revenue_Performance.jpg" width="60%" />
+  <img src="./Images/Guest_Experience_Review.jpg" width="90%" />
 </p>
 
+<p align="center">
+  <img src="./Images/Revenue_Performance.jpg" width="90%" />
+</p>
 
