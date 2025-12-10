@@ -1,7 +1,6 @@
 # North America Retail Sales Analysis 
 
 A multi-page Power BI sales analytics solution built to analyze retail performance across North America, focusing on sales growth, profitability, customer behavior, returns, discounts, and delivery efficiency.
-
 This project emphasizes **advanced DAX techniques**, **dynamic ranking logic**, and **business-focused visual storytelling** for executive decision-making.
 
 ## Business Objectives
