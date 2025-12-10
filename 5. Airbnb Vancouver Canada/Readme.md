@@ -49,11 +49,11 @@ This analysis covers:
 - **Python & Data Preparation**
   - The Airbnb dataset was **loaded and transformed using Python (Pandas)** before modeling in Power BI.
 steps:
-- Reading raw CSV data using Pandas
-- Parsing semi-structured fields (amenities) using `ast.literal_eval`
-- Creating binary indicator columns for amenities (wifi, kitchen, parking, etc.)
-- Cleaning and standardizing text-based fields
-- Preparing the dataset for efficient analytical modeling
+ - Reading raw CSV data using Pandas
+ - Parsing semi-structured fields (amenities) using `ast.literal_eval`
+ - Creating binary indicator columns for amenities (wifi, kitchen, parking, etc.)
+ - Cleaning and standardizing text-based fields
+ - Preparing the dataset for efficient analytical modeling
 
 - **Geographic Analysis**
 ---
