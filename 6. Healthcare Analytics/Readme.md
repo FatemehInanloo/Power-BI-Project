@@ -14,7 +14,7 @@ The report supports both executive-level monitoring and hospital-level deep-dive
 ## Analytical Techniques
 
 ### Advanced DAX & Data Modeling
-- Extensive use of `SUMMARIZE` and `SUMMARIZECOLUMNS` to create analytical summary tables  
+- Extensive use of "SUMMARIZE" and "SUMMARIZECOLUMNS" to create analytical summary tables  
 - Custom calculated tables and measures for KPIs and comparisons  
 
 ### Key Influencers Visual
