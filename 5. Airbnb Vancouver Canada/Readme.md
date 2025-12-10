@@ -13,7 +13,7 @@ This analysis covers:
 
  Report Pages:
 
-### 1️⃣ Occupancy & Demand
+### Occupancy & Demand
 - Booking Count, Booking Growth %, and Occupancy Rate
 - Booking trends by month and seasonality
 - Property type distribution (Entire home, Private room, Condo, etc.)
@@ -22,7 +22,7 @@ This analysis covers:
 
 ---
 
-### 2️⃣ Guest Experience & Reviews
+### Guest Experience & Reviews
 - Average Review Score and Response Rate
 - Superhost vs Non-Superhost performance
 - Review quality by response time
@@ -31,7 +31,7 @@ This analysis covers:
 
 ---
 
-### 3️⃣ Revenue Performance
+### Revenue Performance
 - Actual Revenue vs Estimated & Potential Revenue
 - Revenue Capture Rate & Revenue Efficiency %
 - Revenue contribution by price segment (Luxury, Standard, Economy, Budget)
@@ -48,13 +48,6 @@ This analysis covers:
   - Consistent filtering behavior across pages
 - **Python & Data Preparation**
   - The Airbnb dataset was **loaded and transformed using Python (Pandas)** before modeling in Power BI.
-steps:
- - Reading raw CSV data using Pandas
- - Parsing semi-structured fields (amenities) using `ast.literal_eval`
- - Creating binary indicator columns for amenities (wifi, kitchen, parking, etc.)
- - Cleaning and standardizing text-based fields
- - Preparing the dataset for efficient analytical modeling
-
 - **Geographic Analysis**
 ---
 
