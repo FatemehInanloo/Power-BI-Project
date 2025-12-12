@@ -1,6 +1,6 @@
 # Power BI Projects Portfolio
 
-A collection of end-to-end **Power BI analytics projects** designed to simulate real-world business scenarios across finance, banking, retail, HR, hospitality, and healthcare.  
+A collection of **Power BI analytics projects** designed to simulate real-world business scenarios across finance, banking, retail, HR, hospitality, and healthcare.  
 Each project focuses on **data modeling, advanced DAX, time intelligence, and executive-level storytelling dashboards**.
 
 
