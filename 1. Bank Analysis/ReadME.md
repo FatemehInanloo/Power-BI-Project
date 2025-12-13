@@ -1,7 +1,7 @@
 # Transaction Banking Analytics – Financial Performance & Customer Behavior Analysis
 
 This project is a Power BI financial analytics solution built to analyze transaction volumes, revenue, fees, customer behavior, and product performance in a retail banking environment.  
-The report is designed for executive-level monitoring as well as detailed exploratory analysis using advanced visuals, time intelligence, and semantic modeling techniques.
+The report is designed for executive-level monitoring as well as detailed exploratory analysis using advanced visuals, time intelligence, and **Calculation Groups** techniques.
 
 ## Project Objectives
 
@@ -12,6 +12,14 @@ The report is designed for executive-level monitoring as well as detailed explor
 - Enable deep-dive analysis across products, channels, segments, and time  
 
 ## Analytical Techniques
+### Tabular Editor & Calculation Groups
+
+**Calculation Groups** were created using Tabular Editor to centralize time intelligence logic (e.g., Actual, PY, YoY %, Moving Average).
+
+Benefits:  
+- Eliminates duplication of similar DAX logic across dozens of measures  
+- Keeps the model clean, scalable, and easier to maintain  
+- Allows seamless switching between metrics using slicers without rewriting measures 
 
 ### Decomposition Tree (Advanced Visual Technique)
 
@@ -28,17 +36,7 @@ The Decomposition Tree enables true root-cause analysis by letting users drill i
 
 - Year-over-Year (YoY) and Prior Year (PY) calculations applied consistently across all KPIs  
 - 12-Month Moving Average to smooth volatility and highlight long-term trends  
-- Forecasting applied to key financial metrics to provide forward-looking insights  
-
-### Tabular Editor & Calculation Groups
-
-Calculation Groups were created using Tabular Editor to centralize time intelligence logic (e.g., Actual, PY, YoY %, Moving Average).
-
-Benefits:  
-- Eliminates duplication of similar DAX logic across dozens of measures  
-- Keeps the model clean, scalable, and easier to maintain  
-- Allows seamless switching between metrics using slicers without rewriting measures  
-
+- Forecasting applied to key financial metrics to provide forward-looking insights   
 
 ## Tools & Technologies
 
